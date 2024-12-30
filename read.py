@@ -35,7 +35,7 @@ sheet = book.create_sheet("Subcategories")
 
 # Записываю данные в Excel
 sheet.append(["Subcategory", "SKUs"])  # Заголовки
-for key, value in 51 и.items():
+for key, value in sorteddict.items():
     string_values = ', '.join(value)
     sheet.append([key, string_values])  # Добавляю данные построчно
 
